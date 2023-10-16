@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/anxin/Documents/OpenWear/OpenWear.kicad_sch</source>
+    <date>Saturday, October 14, 2023 at 02:57:24</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>OpenWear</title>
+        <company>Zhejiang University</company>
+        <rev>0.1</rev>
+        <date>2023-10-14</date>
+        <source>OpenWear.kicad_sch</source>
+        <comment number="1" value="DTB Lab"/>
+        <comment number="2" value="https://anxin.design"/>
+        <comment number="3" value="CC-BY-SA 3.0"/>
+        <comment number="4" value="Xin An"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Sensor/" tstamps="/10f4c92b-bc88-4ed3-9e3d-f008008d8f80/">
+      <title_block>
+        <title>OpenWear</title>
+        <company>Zhejiang University</company>
+        <rev>0.1</rev>
+        <date>2023-10-14</date>
+        <source>Sensor.kicad_sch</source>
+        <comment number="1" value="DTB Lab"/>
+        <comment number="2" value="https://anxin.design"/>
+        <comment number="3" value="CC-BY-SA 3.0"/>
+        <comment number="4" value="Xin An"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenWear.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d377967-bc56-4e4b-8865-13bb88c09092</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenWear.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef0beff2-f031-4434-9991-dc5c422fcf81</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenWear.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbca112a-a4c7-4460-9b5f-4b70ed323b08</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenWear.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12fc573c-dc3b-4a93-a893-9a399bfefbae</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenWear.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b68610e1-9dc1-4d9e-b8f4-b620210a3b00</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N5819WS</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf</datasheet>
+      <libsource lib="Diode" part="1N5819WS" description="40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"/>
+      <property name="LCSC Part #" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenWear.kicad_sch"/>
+      <property name="ki_description" value="40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c00f4e95-250c-45b5-97ae-b4660f286770</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenWear.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3464c638-6ad5-4071-a59a-af34841e8780</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_C</value>
+      <footprint>Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="LCSC Part #" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenWear.kicad_sch"/>
+      <property name="ki_description" value="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f12b48b5-9436-49bb-9b3e-04e81d8922c2</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC847B</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="BC847BDW1" description="100mA IC, 45V Vce, Dual NPN/NPN Transistors, SOT-363"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenWear.kicad_sch"/>
+      <property name="ki_description" value="100mA IC, 45V Vce, Dual NPN/NPN Transistors, SOT-363"/>
+      <property name="ki_keywords" value="NPN/NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7913304-14c2-46a6-8220-1a44597cf3e0 742a8e7d-e3e7-4fdf-b856-30e7f558bdd3</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>DMG3415U</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds31739.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="DMG3414U" description="4.2A Id, 20V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenWear.kicad_sch"/>
+      <property name="ki_description" value="4.2A Id, 20V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d372d439-26ee-4b32-bb8d-e86810f51d76</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenWear.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df20e1bf-5c1c-4f91-b126-a13c5249775d</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenWear.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4427ff93-e136-46c4-80e4-0e1d07ae8ba4</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>TL3365AF180QG</value>
+      <footprint>TL3365AF180QG:SW_TL3365AF180QG</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TL3365AF180QG/E-Switch/view-part/?ref=eda</field>
+        <field name="Description">
+Tactile Switch SPST-NO Top Actuated Surface Mount
+</field>
+        <field name="MANUFACTURER">E-Switch</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.5 mm</field>
+        <field name="MF">E-Switch</field>
+        <field name="MP">TL3365AF180QG</field>
+        <field name="PARTREV">A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2875166&amp;manufacturer=E-Switch&amp;part_name=TL3365AF180QG&amp;search_term=tl3365</field>
+        <field name="SNAPEDA_PN">TL3365AF180QG</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TL3365AF180QG/E-Switch/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="TL3365AF180QG" part="TL3365AF180QG" description=""/>
+      <property name="MF" value="E-Switch"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="2.5 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/TL3365AF180QG/E-Switch/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="A"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/TL3365AF180QG/E-Switch/view-part/?ref=snap"/>
+      <property name="MP" value="TL3365AF180QG"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2875166&amp;manufacturer=E-Switch&amp;part_name=TL3365AF180QG&amp;search_term=tl3365"/>
+      <property name="Description" value="&#xA;Tactile Switch SPST-NO Top Actuated Surface Mount&#xA;"/>
+      <property name="MANUFACTURER" value="E-Switch"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="TL3365AF180QG"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenWear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2b858b2-beb2-4cca-acb7-ddaa59c6a843</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>TL3365AF180QG</value>
+      <footprint>TL3365AF180QG:SW_TL3365AF180QG</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TL3365AF180QG/E-Switch/view-part/?ref=eda</field>
+        <field name="Description">
+Tactile Switch SPST-NO Top Actuated Surface Mount
+</field>
+        <field name="MANUFACTURER">E-Switch</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.5 mm</field>
+        <field name="MF">E-Switch</field>
+        <field name="MP">TL3365AF180QG</field>
+        <field name="PARTREV">A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2875166&amp;manufacturer=E-Switch&amp;part_name=TL3365AF180QG&amp;search_term=tl3365</field>
+        <field name="SNAPEDA_PN">TL3365AF180QG</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TL3365AF180QG/E-Switch/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="TL3365AF180QG" part="TL3365AF180QG" description=""/>
+      <property name="MF" value="E-Switch"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="2.5 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/TL3365AF180QG/E-Switch/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="A"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/TL3365AF180QG/E-Switch/view-part/?ref=snap"/>
+      <property name="MP" value="TL3365AF180QG"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2875166&amp;manufacturer=E-Switch&amp;part_name=TL3365AF180QG&amp;search_term=tl3365"/>
+      <property name="Description" value="&#xA;Tactile Switch SPST-NO Top Actuated Surface Mount&#xA;"/>
+      <property name="MANUFACTURER" value="E-Switch"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="TL3365AF180QG"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenWear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a57da59-e26c-4575-8193-983c8dbf5c04</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32-PICO-D4</value>
+      <footprint>Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf</datasheet>
+      <libsource lib="RF_Module" part="ESP32-PICO-D4" description="RF Module, ESP32 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, QFN-48"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenWear.kicad_sch"/>
+      <property name="ki_description" value="RF Module, ESP32 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, QFN-48"/>
+      <property name="ki_keywords" value="RF Radio BT ESP ESP32 Espressif external antenna"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>467810de-58b0-40db-8b74-837feeb8426d</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>CH343P</value>
+      <footprint>Package_DFN_QFN:LQFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm</footprint>
+      <libsource lib="wch_mcu_peripheral" part="CH343P" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenWear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c9e30b4-24b6-41e5-a44f-1fbe0458cf95</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TLV70233_SOT23-5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv702.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="TLV70233_SOT23-5" description="300mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <property name="LCSC Part #" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenWear.kicad_sch"/>
+      <property name="ki_description" value="300mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <property name="ki_keywords" value="300mA LDO Regulator Fixed Positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba29de14-08b9-4dd6-a270-76cc6ce9220a</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>MCP73831-2-OT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</datasheet>
+      <libsource lib="Battery_Management" part="MCP73831-2-OT" description="Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package"/>
+      <property name="LC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenWear.kicad_sch"/>
+      <property name="ki_description" value="Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package"/>
+      <property name="ki_keywords" value="battery charger lithium"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98945d0e-97ee-4794-b571-16be55efd954</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Inolux_IN-PI554FCH</value>
+      <footprint>LED_SMD:LED_Inolux_IN-PI554FCH_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf</datasheet>
+      <libsource lib="LED" part="Inolux_IN-PI554FCH" description="5050 RGB LED 4-Pin with integrated IC"/>
+      <property name="Sheetname" value="Sensor"/>
+      <property name="Sheetfile" value="Sensor.kicad_sch"/>
+      <property name="ki_description" value="5050 RGB LED 4-Pin with integrated IC"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/Sensor/" tstamps="/10f4c92b-bc88-4ed3-9e3d-f008008d8f80/"/>
+      <tstamps>855e552f-01a2-46bf-bfd6-6a0b0ef2cc15</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>BMP280</value>
+      <footprint>Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering</footprint>
+      <datasheet>https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf</datasheet>
+      <libsource lib="Sensor_Pressure" part="BMP280" description="Absolute Barometric Pressure Sensor, LGA-8"/>
+      <property name="Sheetname" value="Sensor"/>
+      <property name="Sheetfile" value="Sensor.kicad_sch"/>
+      <property name="ki_description" value="Absolute Barometric Pressure Sensor, LGA-8"/>
+      <property name="ki_keywords" value="I2C, SPI, pressure, temperature, sensor"/>
+      <sheetpath names="/Sensor/" tstamps="/10f4c92b-bc88-4ed3-9e3d-f008008d8f80/"/>
+      <tstamps>a72edbdd-4b8a-47fb-ba63-ab120fad090f</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>LSM6DS3</value>
+      <footprint>Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/lsm6ds3tr-c.pdf</datasheet>
+      <libsource lib="Sensor_Motion" part="LSM6DS3" description="I2C/SPI, iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope"/>
+      <property name="Sheetname" value="Sensor"/>
+      <property name="Sheetfile" value="Sensor.kicad_sch"/>
+      <property name="ki_description" value="I2C/SPI, iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope"/>
+      <property name="ki_keywords" value="Accelerometer Gyroscope MEMS"/>
+      <sheetpath names="/Sensor/" tstamps="/10f4c92b-bc88-4ed3-9e3d-f008008d8f80/"/>
+      <tstamps>d91353c3-cce1-430e-891b-c5fcdf38a5d7</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Battery_Management" part="MCP73831-2-OT">
+      <description>Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831-2-OT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="V_{SS}" type="power_in"/>
+        <pin num="3" name="V_{BAT}" type="power_out"/>
+        <pin num="4" name="V_{DD}" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5819WS">
+      <description>40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf</docs>
+      <footprints>
+        <fp>D*SOD?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5819WS</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="Inolux_IN-PI554FCH">
+      <description>5050 RGB LED 4-Pin with integrated IC</description>
+      <docs>http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf</docs>
+      <footprints>
+        <fp>LED*IN-PI554FCH*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Inolux_IN-PI554FCH</field>
+        <field name="Footprint">LED_SMD:LED_Inolux_IN-PI554FCH_PLCC4_5.0x5.0mm_P3.2mm</field>
+        <field name="Datasheet">http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_in"/>
+        <pin num="2" name="DIN" type="input"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="DO" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Module" part="ESP32-PICO-D4">
+      <description>RF Module, ESP32 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, QFN-48</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf</docs>
+      <footprints>
+        <fp>QFN*1EP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-PICO-D4</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDA" type="power_in"/>
+        <pin num="2" name="LNA_IN" type="bidirectional"/>
+        <pin num="3" name="VDDA3P3" type="power_in"/>
+        <pin num="4" name="VDDA3P3" type="passive"/>
+        <pin num="5" name="SENSOR_VP" type="input"/>
+        <pin num="6" name="SENSOR_CAPP" type="input"/>
+        <pin num="7" name="SENSOR_CAPN" type="input"/>
+        <pin num="8" name="SENSOR_VN" type="input"/>
+        <pin num="9" name="EN" type="input"/>
+        <pin num="10" name="IO34" type="input"/>
+        <pin num="11" name="IO35" type="input"/>
+        <pin num="12" name="IO32" type="bidirectional"/>
+        <pin num="13" name="IO33" type="bidirectional"/>
+        <pin num="14" name="IO25" type="bidirectional"/>
+        <pin num="15" name="IO26" type="bidirectional"/>
+        <pin num="16" name="IO27" type="bidirectional"/>
+        <pin num="17" name="IO14" type="bidirectional"/>
+        <pin num="18" name="IO12" type="bidirectional"/>
+        <pin num="19" name="VDD3P3_RTC" type="power_in"/>
+        <pin num="20" name="IO13" type="bidirectional"/>
+        <pin num="21" name="IO15" type="bidirectional"/>
+        <pin num="22" name="IO2" type="bidirectional"/>
+        <pin num="23" name="IO0" type="bidirectional"/>
+        <pin num="24" name="IO4" type="bidirectional"/>
+        <pin num="25" name="IO16" type="bidirectional"/>
+        <pin num="26" name="VDD_SDIO" type="power_out"/>
+        <pin num="27" name="IO17" type="bidirectional"/>
+        <pin num="28" name="SD2/IO9" type="bidirectional"/>
+        <pin num="29" name="SD3/IO10" type="bidirectional"/>
+        <pin num="30" name="CMD" type="bidirectional"/>
+        <pin num="31" name="CLK" type="bidirectional"/>
+        <pin num="32" name="SD0" type="bidirectional"/>
+        <pin num="33" name="SD1" type="bidirectional"/>
+        <pin num="34" name="IO5" type="bidirectional"/>
+        <pin num="35" name="IO18" type="bidirectional"/>
+        <pin num="36" name="IO23" type="bidirectional"/>
+        <pin num="37" name="VDD3P3_CPU" type="power_in"/>
+        <pin num="38" name="IO19" type="bidirectional"/>
+        <pin num="39" name="IO22" type="bidirectional"/>
+        <pin num="40" name="U0RXD/IO3" type="bidirectional"/>
+        <pin num="41" name="U0TXD/IO1" type="bidirectional"/>
+        <pin num="42" name="IO21" type="bidirectional"/>
+        <pin num="43" name="VDDA" type="passive"/>
+        <pin num="44" name="XTAL_N_NC" type="no_connect"/>
+        <pin num="45" name="XTAL_P_NC" type="no_connect"/>
+        <pin num="46" name="VDDA" type="passive"/>
+        <pin num="47" name="CAP2_NC" type="no_connect"/>
+        <pin num="48" name="CAP1_NC" type="no_connect"/>
+        <pin num="49" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="TLV70233_SOT23-5">
+      <description>300mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv702.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV70233_SOT23-5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv702.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Motion" part="LSM6DS3">
+      <description>I2C/SPI, iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope</description>
+      <docs>https://www.st.com/resource/en/datasheet/lsm6ds3tr-c.pdf</docs>
+      <footprints>
+        <fp>LGA*3x2.5mm*P0.5mm*LayoutBorder3x4y*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LSM6DS3</field>
+        <field name="Footprint">Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/lsm6ds3tr-c.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDO/SA0" type="bidirectional"/>
+        <pin num="2" name="SDX" type="bidirectional"/>
+        <pin num="3" name="SCX" type="input"/>
+        <pin num="4" name="INT1" type="output"/>
+        <pin num="5" name="VDDIO" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="INT2" type="output"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="NC" type="no_connect"/>
+        <pin num="12" name="CS" type="input"/>
+        <pin num="13" name="SCL" type="input"/>
+        <pin num="14" name="SDA" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Pressure" part="BMP280">
+      <description>Absolute Barometric Pressure Sensor, LGA-8</description>
+      <docs>https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf</docs>
+      <footprints>
+        <fp>Bosch*LGA*2x2.5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BMP280</field>
+        <field name="Footprint">Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering</field>
+        <field name="Datasheet">https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="CSB" type="input"/>
+        <pin num="3" name="SDI" type="bidirectional"/>
+        <pin num="4" name="SCK" type="input"/>
+        <pin num="5" name="SDO" type="bidirectional"/>
+        <pin num="6" name="VDDIO" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="TL3365AF180QG" part="TL3365AF180QG">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">TL3365AF180QG</field>
+        <field name="Footprint">TL3365AF180QG:SW_TL3365AF180QG</field>
+        <field name="MF">E-Switch</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.5 mm</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TL3365AF180QG/E-Switch/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">A</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TL3365AF180QG/E-Switch/view-part/?ref=snap</field>
+        <field name="MP">TL3365AF180QG</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2875166&amp;manufacturer=E-Switch&amp;part_name=TL3365AF180QG&amp;search_term=tl3365</field>
+        <field name="Description">
+Tactile Switch SPST-NO Top Actuated Surface Mount
+</field>
+        <field name="MANUFACTURER">E-Switch</field>
+        <field name="Availability">In Stock</field>
+        <field name="SNAPEDA_PN">TL3365AF180QG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC847BDW1">
+      <description>100mA IC, 45V Vce, Dual NPN/NPN Transistors, SOT-363</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF</docs>
+      <footprints>
+        <fp>SOT?363*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC847BDW1</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E1" type="passive"/>
+        <pin num="2" name="B1" type="input"/>
+        <pin num="3" name="C2" type="passive"/>
+        <pin num="4" name="E2" type="passive"/>
+        <pin num="5" name="B2" type="input"/>
+        <pin num="6" name="C1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="DMG3414U">
+      <description>4.2A Id, 20V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.diodes.com/assets/Datasheets/ds31739.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMG3414U</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.diodes.com/assets/Datasheets/ds31739.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wch_mcu_peripheral" part="CH343P">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CH343P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIO" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VDD5" type="power_in"/>
+        <pin num="4" name="TXD" type="output"/>
+        <pin num="5" name="RXD" type="input"/>
+        <pin num="6" name="V3" type="passive"/>
+        <pin num="7" name="UD+" type="bidirectional"/>
+        <pin num="8" name="UD-" type="bidirectional"/>
+        <pin num="9" name="VBUS" type="power_in"/>
+        <pin num="10" name="ACT#" type="passive"/>
+        <pin num="11" name="DCD" type="passive"/>
+        <pin num="12" name="DTR" type="passive"/>
+        <pin num="13" name="RTS" type="passive"/>
+        <pin num="14" name="DSR" type="passive"/>
+        <pin num="15" name="CTS" type="passive"/>
+        <pin num="16" name="RI" type="passive"/>
+        <pin num="17" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Battery_Management">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="LED">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//LED.kicad_sym</uri>
+    </library>
+    <library logical="RF_Module">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//RF_Module.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Motion">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Sensor_Motion.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Pressure">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Sensor_Pressure.kicad_sym</uri>
+    </library>
+    <library logical="TL3365AF180QG">
+      <uri>/Users/anxin/Downloads/TL3365AF180QG/TL3365AF180QG.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+    <library logical="wch_mcu_peripheral">
+      <uri>/Users/anxin/Downloads/wch_kicad_library-master/symbols/wch_mcu_peripheral.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U1" pin="19" pinfunction="VDD3P3_RTC" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="VDDA3P3" pintype="power_in"/>
+      <node ref="U1" pin="37" pinfunction="VDD3P3_CPU" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="VDDA3P3" pintype="passive"/>
+      <node ref="U1" pin="43" pinfunction="VDDA" pintype="passive"/>
+      <node ref="U1" pin="46" pinfunction="VDDA" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="VIO" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VDD5" pintype="power_in"/>
+      <node ref="U3" pin="6" pinfunction="V3" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="3" name="+BATT">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="V_{BAT}" pintype="power_out"/>
+    </net>
+    <net code="4" name="/D+">
+      <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U3" pin="7" pinfunction="UD+" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/D-">
+      <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U3" pin="8" pinfunction="UD-" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/DTR">
+      <node ref="U3" pin="12" pinfunction="DTR" pintype="passive"/>
+    </net>
+    <net code="7" name="/EN">
+      <node ref="S1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="8" name="/RTS">
+      <node ref="U3" pin="13" pinfunction="RTS" pintype="passive"/>
+    </net>
+    <net code="9" name="/RX">
+      <node ref="U3" pin="5" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="10" name="/TX">
+      <node ref="U3" pin="4" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="U1" pin="49" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="17" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="V_{SS}" pintype="power_in"/>
+    </net>
+    <net code="12" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="STAT" pintype="output"/>
+    </net>
+    <net code="14" name="Net-(U5-PROG)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="PROG" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(U6-GND-Pad6)">
+      <node ref="U6" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="7" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="16" name="VBUS">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="17" name="VCC">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="V_{DD}" pintype="power_in"/>
+    </net>
+    <net code="18" name="unconnected-(D1-DIN-Pad2)">
+      <node ref="D1" pin="2" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="19" name="unconnected-(D1-DO-Pad4)">
+      <node ref="D1" pin="4" pinfunction="DO" pintype="output"/>
+    </net>
+    <net code="20" name="unconnected-(D1-VDD-Pad3)">
+      <node ref="D1" pin="3" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="21" name="unconnected-(D1-VSS-Pad1)">
+      <node ref="D1" pin="1" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="22" name="unconnected-(J1-CC1-PadA5)">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(J1-CC2-PadB5)">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(J1-SBU1-PadA8)">
+      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(J1-SBU2-PadB8)">
+      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(Q1A-B1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="B1" pintype="input"/>
+    </net>
+    <net code="27" name="unconnected-(Q1A-C1-Pad6)">
+      <node ref="Q1" pin="6" pinfunction="C1" pintype="passive"/>
+    </net>
+    <net code="28" name="unconnected-(Q1A-E1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="E1" pintype="passive"/>
+    </net>
+    <net code="29" name="unconnected-(Q1B-B2-Pad5)">
+      <node ref="Q1" pin="5" pinfunction="B2" pintype="input"/>
+    </net>
+    <net code="30" name="unconnected-(Q1B-C2-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="C2" pintype="passive"/>
+    </net>
+    <net code="31" name="unconnected-(Q1B-E2-Pad4)">
+      <node ref="Q1" pin="4" pinfunction="E2" pintype="passive"/>
+    </net>
+    <net code="32" name="unconnected-(S1-Pad2)">
+      <node ref="S1" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="unconnected-(S1-Pad3)">
+      <node ref="S1" pin="3" pintype="passive"/>
+    </net>
+    <net code="34" name="unconnected-(S1-Pad4)">
+      <node ref="S1" pin="4" pintype="passive"/>
+    </net>
+    <net code="35" name="unconnected-(S2-Pad1)">
+      <node ref="S2" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="unconnected-(S2-Pad2)">
+      <node ref="S2" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="unconnected-(S2-Pad3)">
+      <node ref="S2" pin="3" pintype="passive"/>
+    </net>
+    <net code="38" name="unconnected-(S2-Pad4)">
+      <node ref="S2" pin="4" pintype="passive"/>
+    </net>
+    <net code="39" name="unconnected-(U1-CAP1_NC-Pad48)">
+      <node ref="U1" pin="48" pinfunction="CAP1_NC" pintype="no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-CAP2_NC-Pad47)">
+      <node ref="U1" pin="47" pinfunction="CAP2_NC" pintype="no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-CLK-Pad31)">
+      <node ref="U1" pin="31" pinfunction="CLK" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="unconnected-(U1-CMD-Pad30)">
+      <node ref="U1" pin="30" pinfunction="CMD" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="unconnected-(U1-IO0-Pad23)">
+      <node ref="U1" pin="23" pinfunction="IO0" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="unconnected-(U1-IO2-Pad22)">
+      <node ref="U1" pin="22" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="unconnected-(U1-IO4-Pad24)">
+      <node ref="U1" pin="24" pinfunction="IO4" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="unconnected-(U1-IO5-Pad34)">
+      <node ref="U1" pin="34" pinfunction="IO5" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="unconnected-(U1-IO12-Pad18)">
+      <node ref="U1" pin="18" pinfunction="IO12" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="unconnected-(U1-IO13-Pad20)">
+      <node ref="U1" pin="20" pinfunction="IO13" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="unconnected-(U1-IO14-Pad17)">
+      <node ref="U1" pin="17" pinfunction="IO14" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="unconnected-(U1-IO15-Pad21)">
+      <node ref="U1" pin="21" pinfunction="IO15" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="unconnected-(U1-IO16-Pad25)">
+      <node ref="U1" pin="25" pinfunction="IO16" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="unconnected-(U1-IO17-Pad27)">
+      <node ref="U1" pin="27" pinfunction="IO17" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="unconnected-(U1-IO18-Pad35)">
+      <node ref="U1" pin="35" pinfunction="IO18" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="unconnected-(U1-IO19-Pad38)">
+      <node ref="U1" pin="38" pinfunction="IO19" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="unconnected-(U1-IO21-Pad42)">
+      <node ref="U1" pin="42" pinfunction="IO21" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="unconnected-(U1-IO22-Pad39)">
+      <node ref="U1" pin="39" pinfunction="IO22" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="unconnected-(U1-IO23-Pad36)">
+      <node ref="U1" pin="36" pinfunction="IO23" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="unconnected-(U1-IO25-Pad14)">
+      <node ref="U1" pin="14" pinfunction="IO25" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="unconnected-(U1-IO26-Pad15)">
+      <node ref="U1" pin="15" pinfunction="IO26" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="unconnected-(U1-IO27-Pad16)">
+      <node ref="U1" pin="16" pinfunction="IO27" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="unconnected-(U1-IO32-Pad12)">
+      <node ref="U1" pin="12" pinfunction="IO32" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="unconnected-(U1-IO33-Pad13)">
+      <node ref="U1" pin="13" pinfunction="IO33" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="unconnected-(U1-IO34-Pad10)">
+      <node ref="U1" pin="10" pinfunction="IO34" pintype="input"/>
+    </net>
+    <net code="64" name="unconnected-(U1-IO35-Pad11)">
+      <node ref="U1" pin="11" pinfunction="IO35" pintype="input"/>
+    </net>
+    <net code="65" name="unconnected-(U1-LNA_IN-Pad2)">
+      <node ref="U1" pin="2" pinfunction="LNA_IN" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="unconnected-(U1-SD0-Pad32)">
+      <node ref="U1" pin="32" pinfunction="SD0" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="unconnected-(U1-SD1-Pad33)">
+      <node ref="U1" pin="33" pinfunction="SD1" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="unconnected-(U1-SD2{slash}IO9-Pad28)">
+      <node ref="U1" pin="28" pinfunction="SD2/IO9" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="unconnected-(U1-SD3{slash}IO10-Pad29)">
+      <node ref="U1" pin="29" pinfunction="SD3/IO10" pintype="bidirectional"/>
+    </net>
+    <net code="70" name="unconnected-(U1-SENSOR_CAPN-Pad7)">
+      <node ref="U1" pin="7" pinfunction="SENSOR_CAPN" pintype="input"/>
+    </net>
+    <net code="71" name="unconnected-(U1-SENSOR_CAPP-Pad6)">
+      <node ref="U1" pin="6" pinfunction="SENSOR_CAPP" pintype="input"/>
+    </net>
+    <net code="72" name="unconnected-(U1-SENSOR_VN-Pad8)">
+      <node ref="U1" pin="8" pinfunction="SENSOR_VN" pintype="input"/>
+    </net>
+    <net code="73" name="unconnected-(U1-SENSOR_VP-Pad5)">
+      <node ref="U1" pin="5" pinfunction="SENSOR_VP" pintype="input"/>
+    </net>
+    <net code="74" name="unconnected-(U1-U0RXD{slash}IO3-Pad40)">
+      <node ref="U1" pin="40" pinfunction="U0RXD/IO3" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="unconnected-(U1-U0TXD{slash}IO1-Pad41)">
+      <node ref="U1" pin="41" pinfunction="U0TXD/IO1" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="unconnected-(U1-VDD_SDIO-Pad26)">
+      <node ref="U1" pin="26" pinfunction="VDD_SDIO" pintype="power_out+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U1-XTAL_N_NC-Pad44)">
+      <node ref="U1" pin="44" pinfunction="XTAL_N_NC" pintype="no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U1-XTAL_P_NC-Pad45)">
+      <node ref="U1" pin="45" pinfunction="XTAL_P_NC" pintype="no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U2-CSB-Pad2)">
+      <node ref="U2" pin="2" pinfunction="CSB" pintype="input"/>
+    </net>
+    <net code="80" name="unconnected-(U2-SCK-Pad4)">
+      <node ref="U2" pin="4" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="81" name="unconnected-(U2-SDI-Pad3)">
+      <node ref="U2" pin="3" pinfunction="SDI" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="unconnected-(U2-SDO-Pad5)">
+      <node ref="U2" pin="5" pinfunction="SDO" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="unconnected-(U3-ACT#-Pad10)">
+      <node ref="U3" pin="10" pinfunction="ACT#" pintype="passive+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U3-CTS-Pad15)">
+      <node ref="U3" pin="15" pinfunction="CTS" pintype="passive+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U3-DCD-Pad11)">
+      <node ref="U3" pin="11" pinfunction="DCD" pintype="passive+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U3-DSR-Pad14)">
+      <node ref="U3" pin="14" pinfunction="DSR" pintype="passive+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U3-RI-Pad16)">
+      <node ref="U3" pin="16" pinfunction="RI" pintype="passive+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U4-NC-Pad4)">
+      <node ref="U4" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U6-CS-Pad12)">
+      <node ref="U6" pin="12" pinfunction="CS" pintype="input"/>
+    </net>
+    <net code="90" name="unconnected-(U6-INT1-Pad4)">
+      <node ref="U6" pin="4" pinfunction="INT1" pintype="output"/>
+    </net>
+    <net code="91" name="unconnected-(U6-INT2-Pad9)">
+      <node ref="U6" pin="9" pinfunction="INT2" pintype="output"/>
+    </net>
+    <net code="92" name="unconnected-(U6-NC-Pad10)">
+      <node ref="U6" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U6-NC-Pad11)">
+      <node ref="U6" pin="11" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U6-SCL-Pad13)">
+      <node ref="U6" pin="13" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="95" name="unconnected-(U6-SCX-Pad3)">
+      <node ref="U6" pin="3" pinfunction="SCX" pintype="input"/>
+    </net>
+    <net code="96" name="unconnected-(U6-SDA-Pad14)">
+      <node ref="U6" pin="14" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="97" name="unconnected-(U6-SDO{slash}SA0-Pad1)">
+      <node ref="U6" pin="1" pinfunction="SDO/SA0" pintype="bidirectional"/>
+    </net>
+    <net code="98" name="unconnected-(U6-SDX-Pad2)">
+      <node ref="U6" pin="2" pinfunction="SDX" pintype="bidirectional"/>
+    </net>
+    <net code="99" name="unconnected-(U6-VDD-Pad8)">
+      <node ref="U6" pin="8" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="100" name="unconnected-(U6-VDDIO-Pad5)">
+      <node ref="U6" pin="5" pinfunction="VDDIO" pintype="power_in"/>
+    </net>
+  </nets>
+</export>

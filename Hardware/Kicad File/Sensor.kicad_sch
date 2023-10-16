@@ -1,0 +1,21 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 7570ee8a-37e2-44da-a9dd-c56205fbff8a)
+
+  (paper "A4")
+
+  (title_block
+    (title "OpenWear")
+    (date "2023-10-14")
+    (rev "V0.1")
+    (company "Zhejiang University")
+    (comment 1 "DTB Lab")
+    (comment 2 "https://github.com/anxndsgn/OpenWear")
+    (comment 3 "CC-BY-SA 3.0")
+    (comment 4 "Xin An")
+  )
+
+  (lib_symbols
+  )
+
+)

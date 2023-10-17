@@ -1,6 +1,8 @@
 /*
  * Interfacing Arduino with BMP280 temperature and pressure sensor.
  * This is a free software with NO WARRANTY.
+ * This code is modified from Adafruit BMP280 library.
+ * 
  */
  
 #include <Wire.h>             // include Wire library, required for I2C devices

@@ -1,16 +1,6 @@
 /*****************************************************************************/
-//  HighLevelExample.ino
-//  Hardware:      Grove - 6-Axis Accelerometer&Gyroscope
-//	Arduino IDE:   Arduino-1.65
-//	Author:	       Lambor
-//	Date: 	       Oct,2015
-//	Version:       v1.0
+// This code is modified from Seeed LSM6DS3 library.
 //
-//  Modified by:
-//  Data:
-//  Description:
-//
-//	by www.seeedstudio.com
 //
 //  This library is free software; you can redistribute it and/or
 //  modify it under the terms of the GNU Lesser General Public

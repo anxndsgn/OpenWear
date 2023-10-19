@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "RING")(type "KiCad")(uri "${KIPRJMOD}/Symbol&3D model/RING")(options "")(descr ""))
-)

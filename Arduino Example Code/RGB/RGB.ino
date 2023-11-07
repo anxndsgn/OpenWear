@@ -1,7 +1,7 @@
 #include <Arduino.h>
-#include <Adafruit_NeoPixel.h>
+#include <Adafruit_NeoPixel.h>//you need to install adadruit neopixel library first
  
-#define NUM_PIXELS 1   
+#define NUM_PIXELS 1   //number of RGB. there is only one on OpenWear board
 
 Adafruit_NeoPixel ws2812b(NUM_PIXELS, NEOPIXEL, NEO_GRB + NEO_KHZ800);
 

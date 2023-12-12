@@ -20,12 +20,13 @@
 
 #include "LSM6DS3.h"
 #include "Wire.h"
-
+#define WIRE Wire1
 //Create a instance of class LSM6DS3
 LSM6DS3 myIMU(I2C_MODE, 0x6B);    //I2C device address 0x6B
 
 void setup() {
     // put your setup code here, to run once:
+    Wire1.begin(SDA1,SCL1);
     Serial.begin(115200);
     while (!Serial);
     //Call .begin() to configure the IMUs

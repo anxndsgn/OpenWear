@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include <Adafruit_NeoPixel.h>//you need to install adadruit neopixel library first
+#include <Adafruit_NeoPixel.h> //you need to install adadruit neopixel library first
  
 #define NUM_PIXELS 1   //number of RGB. there is only one on OpenWear board
 
